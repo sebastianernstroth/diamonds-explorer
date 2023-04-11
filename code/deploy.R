@@ -1,2 +1,3 @@
 library(rsconnect)
-deployApp(paste0(getwd(),"/code"))
+deployApp(appDir = paste0(getwd(),"/code"),
+          appName = basename(getwd()))

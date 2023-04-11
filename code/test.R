@@ -1,2 +1,2 @@
 library(shiny)
-runApp(paste0(getwd(),"/code"))
+runApp(appDir = paste0(getwd(),"/code"))
